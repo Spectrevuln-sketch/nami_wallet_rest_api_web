@@ -1,0 +1,34 @@
+{
+  "name": "api",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nodemon ./bin/www",
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "@emurgo/cardano-serialization-lib-asmjs": "^9.1.2",
+    "@emurgo/cardano-serialization-lib-browser": "^9.1.2",
+    "@emurgo/cardano-serialization-lib-nodejs": "^9.1.2",
+    "axios": "^0.24.0",
+    "bcryptjs": "^2.4.3",
+    "connect-redis": "^6.0.0",
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "~4.16.1",
+    "express-session": "^1.17.2",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "jsonwebtoken": "^8.5.1",
+    "jwt-decode": "^3.1.2",
+    "mongoose": "^6.0.12",
+    "morgan": "~1.9.1",
+    "nami-wallet-api": "^1.1.9",
+    "nodemon": "^2.0.15",
+    "redis": "^4.0.1",
+    "redis-server": "^1.2.2"
+  }
+}
